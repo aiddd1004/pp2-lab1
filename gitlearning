@@ -1,6 +1,16 @@
 # git learning notes 
+(command line tool)
+git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+it is also "time machine" for your code.
+allows you to go back in time and see what your code looked like at a certain point in time. 
+
+GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.
 
 "repo" is a storage space where your project lives.
+
+commit - snapshot of your repository at a certain point in time
+
+branch is a parallel version of a repository
 
 git config --global user.name "aiddd1004"
 git config --global user.email "ai_ibraim@kbtu.kz"
@@ -10,7 +20,7 @@ git config --global init.defaultBranch main
 
 git config --global core.autocrlf true
 git config --global core.safecrlf warn
-# linde ending treatment for windows
+# line ending treatment for windows
  
 mkdir work
 cd work
@@ -29,4 +39,5 @@ the repository stores the current state of the working directory, and there are 
 
 git log 
 # view history of project
+
 
