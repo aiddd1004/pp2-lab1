@@ -1,0 +1,3 @@
+song = 150
+txt = f"The song is {song} seconds long"
+print(txt)
